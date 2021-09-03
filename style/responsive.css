@@ -5,15 +5,25 @@
     }
 
     .botao {
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 5px;
         width: 300px;
     }
 
     .sinopse {
         margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .titulo-logo{
+        margin-left: 20px;
+        margin-right: 20px;
         width: 300px;
+    }
+
+    .filme-principal {
+        background-position: right
     }
 }
