@@ -1,0 +1,19 @@
+@media screen and (max-width:622px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .sinopse {
+        margin-bottom: 10px;
+    }
+
+    .titulo-logo{
+        width: 300px;
+    }
+}

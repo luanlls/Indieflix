@@ -1,0 +1,142 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*cabecalho*/
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin-top: 10px;
+
+    font-size: 35px;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+.logo span {
+    color: #1E90FF;
+}
+
+header div nav {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header div nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header div nav a:hover {
+    color: #fff;
+}
+/*-*/
+
+/*filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)100%), url('thelobsterwallpaper.jpg');
+    height: 425px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.titulo-logo {
+    margin-top: 15%;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.sinopse {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+    max-width: fit-content;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border-style: hidden;
+    border-radius: 2px;
+    color: white;
+
+    padding: 15px 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+
+    padding: 15px 30px;
+
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: none;
+
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao a:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+/*-*/
+
+/*carrosel*/
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel {
+    margin-top: 5px;
+}
